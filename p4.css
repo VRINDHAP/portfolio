@@ -1,0 +1,101 @@
+/* ---------- PROJECT DETAIL PAGES ---------- */
+
+.project-page {
+  background-color: #0b3d2e;
+  color: #00ffaa;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.project-wrapper {
+  max-width: 800px;
+  margin: auto;
+  background-color: rgba(20, 92, 66, 0.2);
+  padding: 40px 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0, 255, 150, 0.15);
+}
+
+.project-wrapper h1 {
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+  color: #00ffaa;
+}
+
+/* 🎥 YouTube Video Embed */
+.youtube-video {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  margin: 30px 0 40px;
+  border-radius: 14px;
+  box-shadow: 0 0 20px rgba(0, 255, 150, 0.3);
+}
+
+.youtube-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 14px;
+}
+
+/* 📝 Description */
+.project-description {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  color: #c4fff4;
+}
+
+/* 🛠️ Tech Used List */
+.tech-used {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.tech-used li {
+  background-color: #145c42;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #00ffaa;
+  box-shadow: 0 0 8px rgba(0, 255, 150, 0.2);
+}
+
+/* 🔗 Project Links */
+.project-links a {
+  display: inline-block;
+  margin: 10px 15px;
+  color: #00ffaa;
+  text-decoration: none;
+  border: 1px solid #00ffaa;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.project-links a:hover {
+  background-color: #1b7156;
+  color: white;
+  box-shadow: 0 0 12px rgba(0, 255, 150, 0.3);
+}
+.project-link {
+  color: #00ffaa;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+  color: #80ffd3;
+}

@@ -1,0 +1,112 @@
+/* ---------- PROJECT DETAIL PAGES ---------- */
+
+.project-page {
+  background-color: #0b3d2e;
+  color: #00ffaa;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.project-wrapper {
+  max-width: 800px;
+  margin: auto;
+  background-color: rgba(20, 92, 66, 0.2);
+  padding: 40px 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0, 255, 150, 0.15);
+}
+
+.project-wrapper h1 {
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+  color: #00ffaa;
+}
+
+/* 🎥 Video Styling */
+.project-video {
+  width: 100%;
+  max-height: 420px;
+  border-radius: 14px;
+  margin: 25px 0 35px;
+  box-shadow: 0 0 18px rgba(0, 255, 150, 0.25);
+}
+
+/* 📝 Description */
+.project-description {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  color: #c4fff4;
+}
+.clean-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  text-align:left;
+  display: inline-block;
+}
+
+.clean-list li {
+  margin: 6px 0;
+  padding-left: 1.2em;
+  position: relative;
+  color: #c4fff4;
+}
+
+.clean-list li::before {
+  content: "🟢 ";
+  
+  left: 0;
+  color: #5fffad;
+  font-size: 0.9em;
+}
+
+.project-link {
+  color: #00ffaa;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+  color: #80ffd3;
+}
+
+/* 🛠️ Tech List */
+.tech-used {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.tech-used li {
+  background-color: #145c42;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #00ffaa;
+  box-shadow: 0 0 8px rgba(0, 255, 150, 0.2);
+}
+
+/* 🔗 Buttons */
+.project-links a {
+  display: inline-block;
+  margin: 10px 15px;
+  color: #00ffaa;
+  text-decoration: none;
+  border: 1px solid #00ffaa;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.project-links a:hover {
+  background-color: #1b7156;
+  color: white;
+  box-shadow: 0 0 12px rgba(0, 255, 150, 0.3);
+}
