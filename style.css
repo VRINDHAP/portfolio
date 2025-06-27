@@ -461,11 +461,18 @@ align-items: center;
 
   /* PROJECTS */
   .projects-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
     padding: 1rem;
+    
   }
+.project-box{
+  width: 100px;
+    text-align: center;
+}
+
 
   /* CONTACT SECTION */
   .contact-container {
