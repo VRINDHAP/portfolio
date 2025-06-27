@@ -71,7 +71,11 @@ section {
   font-weight: bold;
   color: #000;
 }
-
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+}
   
 
 
@@ -480,22 +484,3 @@ align-items: center;
     font-size: 1.5rem;
     margin: 0 10px;
   }
-
-  /* NAVBAR */
-  .navbar {
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-  }
-
-  .nav-links {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .nav-link {
-    font-size: 1rem;
-  }
-}
-
