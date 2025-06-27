@@ -73,11 +73,7 @@ section {
 }
 
   
-@media (max-width: 768px) {
-  .navbar {
-    display: none;
-  }
-}
+
 
 
 /* General Reset */
