@@ -461,42 +461,24 @@ align-items: center;
 
   /* PROJECTS */
   .projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-  padding: 2rem;
-  justify-items: center;
-  align-items: stretch;
-}
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    padding: 2rem 1rem 3rem 1rem;
+    justify-items: center;
+  }
 
-.project-box {
-  width: 100%;
-  max-width: 230px;
-  height: 300px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 15px;
-  position: relative;
-  display: flex;
-  align-items: flex-end;
-  transition: transform 0.3s ease;
-}
+  .project-box {
+    width: 90%;
+    max-width: 250px;
+    height: 200px;
+    margin: 0 auto;
+  }
 
-.project-box:hover {
-  transform: scale(1.05);
+  #projects {
+    padding-top: 40px;
+  }
 }
-
-.project-title {
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: #a3f7d2;
-  text-align: center;
-  padding: 10px 0;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  font-size: 1rem;
-}
-
 
   /* CONTACT SECTION */
   .contact-container {
