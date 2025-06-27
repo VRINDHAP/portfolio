@@ -56,7 +56,7 @@ section {
 }
 
 .nav-link:hover {
-  color: #000;
+  color: #31af8d;
 }
 
 /* Slide-in animation for navbar */
@@ -173,6 +173,7 @@ body, html {
 /* About Section */
 #about {
   height: 100vh;
+  padding-top: 44px;
   background: radial-gradient(
     circle at 30% 40%,
     #044f43,
@@ -280,8 +281,8 @@ align-items: center;
     circle at 30% 40%,
     #04774d,
     #054a2c,
-    #06180f,
-    #011b0e
+    #052a17,
+    #051a10
   );
   color: white;
   text-align: center;
@@ -349,8 +350,8 @@ align-items: center;
     circle at 50% 40%,
     #091c15,
     #054a2c,
-    #062515,
-    #010a08
+    #052a17,
+    #042f1c
   );
   height: 45vh;
   color: #92e1c7;
