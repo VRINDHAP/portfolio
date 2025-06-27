@@ -465,13 +465,24 @@ align-items: center;
   /* PROJECTS */
 
   .projects-grid {
-    gap: 20px;
-    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    gap: 1.2rem;
+    padding: 2rem 1rem;
+    justify-items: center;
   }
 
+  /* Each Project Box: Smaller size on mobile */
   .project-box {
-    max-width: 90%;
-    height: 200px;
+    max-width: 140px;
+    height: 210px;
+    font-size: 0.9rem;
+    padding: 0.8rem;
+  }
+
+  /* Optional: reduce title size if needed */
+  .project-title {
+    font-size: 0.85rem;
   }
 
 
