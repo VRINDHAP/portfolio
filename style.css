@@ -491,6 +491,7 @@ align-items: center;
     position: relative;
     display: flex;
     align-items: flex-end;
+     margin:3px;
   }
 
   .project-title {
